@@ -12,8 +12,7 @@
 - Data persistence using local storage
 
 ## Prerequisites
-Node.js (v14 or higher)
-Git
+Node.js (v14 or higher) & Git
 
 ## Install on your local
 
