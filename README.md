@@ -1,8 +1,32 @@
-# React + Vite
+# Peek Me
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Peek Me** is a simple note-taking application inspired by Google Keep. It is built using **Vite + React** with **Tailwind CSS**. Users can create, update, and delete notes with a clean and minimal UI.
 
-Currently, two official plugins are available:
+## Live Demo  
+[Peek Me](https://peek-me.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features  
+- Add new notes with a title and content  
+- Edit existing notes  
+- Delete notes  
+- Data persistence using local storage  
+
+## Install on your local
+
+1. Clone the repository:  
+   ```sh
+   git clone https://github.com/kushvahasumit/Peek-Me.git
+   cd Peek-Me
+
+2. Install dependencies:  
+   ```sh
+   npm i
+
+3. Start the development server:
+   ```sh
+   npm run dev
+
+## Deployment
+The project is deployed on Netlify:
+https://peek-me.netlify.app/
+
