@@ -9,7 +9,11 @@
 - Add new notes with a title and content  
 - Edit existing notes  
 - Delete notes  
-- Data persistence using local storage  
+- Data persistence using local storage
+
+## Prerequisites
+Node.js (v14 or higher)
+Git
 
 ## Install on your local
 
@@ -20,11 +24,15 @@
 
 2. Install dependencies:  
    ```sh
-   npm i
+   npm install
 
 3. Start the development server:
    ```sh
    npm run dev
+
+4. Build For Production
+   ```sh
+   npm run build
 
 ## Deployment
 The project is deployed on Netlify:
