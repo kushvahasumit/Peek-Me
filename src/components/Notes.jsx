@@ -35,10 +35,7 @@ const Notes = () => {
       <header className="w-full bg-stone-900 py-2 text-4xl font-bold text-center text-white">
         Peek Me
       </header>
-      <div
-        className="max-w-5xl p-2 mx-auto
-       "
-      >
+      <div className="max-w-5xl p-2 mx-auto grid-cols-1 sm:grid-cols-2">
         <InputForm addNewNote={addNewNote} editNote={update}  updateNote={updateNote} />
         <NotesList notes={notes} deleteNote={deleteNote} updateNote={setUpdateNote}  />
       </div>

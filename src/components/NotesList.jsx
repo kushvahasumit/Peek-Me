@@ -2,7 +2,6 @@ import {FilePenLine, Trash2} from 'lucide-react'
 
 const NotesList = ({notes,deleteNote,updateNote}) => {
     console.log("my notes box", notes);
-    // console.log("my notes box",typeof notes)
 
   return (
     <>
