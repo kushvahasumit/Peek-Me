@@ -5,7 +5,7 @@ const NotesList = ({notes,deleteNote,updateNote}) => {
 
   return (
     <>
-      <div className="text-black grid md:grid-cols-3 gap-4 ">
+      <div className="text-black grid gap-4 ">
         {Array.isArray(notes) &&
           notes.map((notes, id) => (
             <div
